@@ -1,0 +1,14 @@
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\bin\Debug\netcoreapp3.1\FormTasksCsharpIntro.exe
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\bin\Debug\netcoreapp3.1\FormTasksCsharpIntro.deps.json
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\bin\Debug\netcoreapp3.1\FormTasksCsharpIntro.runtimeconfig.json
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\bin\Debug\netcoreapp3.1\FormTasksCsharpIntro.runtimeconfig.dev.json
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\bin\Debug\netcoreapp3.1\FormTasksCsharpIntro.dll
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\bin\Debug\netcoreapp3.1\FormTasksCsharpIntro.pdb
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\obj\Debug\netcoreapp3.1\FormTasksCsharpIntro.csproj.AssemblyReference.cache
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\obj\Debug\netcoreapp3.1\FormTasksCsharpIntro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\obj\Debug\netcoreapp3.1\FormTasksCsharpIntro.AssemblyInfoInputs.cache
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\obj\Debug\netcoreapp3.1\FormTasksCsharpIntro.AssemblyInfo.cs
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\obj\Debug\netcoreapp3.1\FormTasksCsharpIntro.csproj.CoreCompileInputs.cache
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\obj\Debug\netcoreapp3.1\FormTasksCsharpIntro.dll
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\obj\Debug\netcoreapp3.1\FormTasksCsharpIntro.pdb
+C:\Users\ibrahimaliyevv2\source\repos\FormTasksCsharpIntro\FormTasksCsharpIntro\obj\Debug\netcoreapp3.1\FormTasksCsharpIntro.genruntimeconfig.cache
