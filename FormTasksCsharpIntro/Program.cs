@@ -9,6 +9,7 @@ namespace FormTasksCsharpIntro
 
             #region Fom-Task1
             // Massivde verilmis ededlerin cemini tapmaq
+
             //int sum = 0;
             //Console.WriteLine("Massivin olcusunu daxil edin:");
             //int size = Convert.ToInt32(Console.ReadLine());
@@ -37,7 +38,7 @@ namespace FormTasksCsharpIntro
             //}
             #endregion
 
-
+            #region Form-Task3
             // Verilmis n ededinden m ededine qeder olan ededlerin cemini tapmali
 
 
@@ -47,10 +48,12 @@ namespace FormTasksCsharpIntro
             //    sum += i;
             //}
             //Console.WriteLine(sum);
+            #endregion
 
 
-
+            #region Form-Task4
             //1-den 100-e qeder 15-e bolunen ededlerin ededi ortasini tapmaq
+
             //int sum = 0;
             //int count = 0;
             //for(int i =1; i<100; i++)
@@ -63,17 +66,58 @@ namespace FormTasksCsharpIntro
 
             //}
             //Console.WriteLine(sum / count);
+            #endregion
 
-            //Ededin reqemleri cemini tapmakli
-            int num = 123;
-            int sum = 0;
+            #region Form-Task5
+            //Ededin reqemleri cemini tapmali
 
-            while (num != 0)
+            //int num = 123;
+            //int sum = 0;
+
+            //while (num != 0)
+            //{
+            //    sum += num % 10;
+            //    num /= 10;
+            //}
+            //Console.WriteLine(sum);
+            #endregion
+
+            #region Form-Task6
+            // 1 eded verilir. Eger o eded 50den kicikdirse o edede qeder 3-e bolunen,
+            // 50-100 araligindadirsa o edede qeder 5e bolunen,
+            // 100den boyukdurse o edede qeder 8 e bolunen ededlerin sayini ekrana cixardan bir alqoritm yazin.
+
+            Console.WriteLine("Ededi daxil edin:");
+            int num = Convert.ToInt32(Console.ReadLine());
+            int count = 0;
+            for (int i = 0; i < num; i++)
             {
-                sum += num % 10;
-                num /= 10;
+                if (num < 50)
+                {
+                    if (i % 3 == 0)
+                    {
+                        count++;
+                    } 
+                }
+
+                if(num>50 && num < 100)
+                {
+                    if (i % 5 == 0)
+                    {
+                        count++;
+                    }
+                }
+
+                if (num > 100)
+                {
+                    if (i % 8 == 0)
+                    {
+                        count++;
+                    }
+                }
             }
-            Console.WriteLine(sum);
+            Console.WriteLine("cavab:"+count);
+            #endregion
         }
     }
 }
