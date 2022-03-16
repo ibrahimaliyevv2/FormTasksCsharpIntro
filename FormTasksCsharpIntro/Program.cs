@@ -23,7 +23,6 @@ namespace FormTasksCsharpIntro
             //Console.WriteLine("Elementlerin cemi:" + sum);
             #endregion
 
-
             #region Form-Task2
             // Bir string massivinin icerisinde uzunlugu 5-den boyuk olan sozleri ekrana cixaran alqoritm
 
@@ -49,7 +48,6 @@ namespace FormTasksCsharpIntro
             //}
             //Console.WriteLine(sum);
             #endregion
-
 
             #region Form-Task4
             //1-den 100-e qeder 15-e bolunen ededlerin ededi ortasini tapmaq
@@ -87,37 +85,115 @@ namespace FormTasksCsharpIntro
             // 50-100 araligindadirsa o edede qeder 5e bolunen,
             // 100den boyukdurse o edede qeder 8 e bolunen ededlerin sayini ekrana cixardan bir alqoritm yazin.
 
-            Console.WriteLine("Ededi daxil edin:");
-            int num = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Ededi daxil edin:");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //int count = 0;
+            //for (int i = 0; i < num; i++)
+            //{
+            //    if (num < 50)
+            //    {
+            //        if (i % 3 == 0)
+            //        {
+            //            count++;
+            //        } 
+            //    }
+
+            //    if(num>50 && num < 100)
+            //    {
+            //        if (i % 5 == 0)
+            //        {
+            //            count++;
+            //        }
+            //    }
+
+            //    if (num > 100)
+            //    {
+            //        if (i % 8 == 0)
+            //        {
+            //            count++;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine("cavab:"+count);
+            #endregion
+
+            #region Form-Task7
+            // Calculator
+
+            //Console.WriteLine("Enter first number:");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter second number:");
+            //int num2 = Convert.ToInt32(Console.ReadLine()); ;
+            //Console.WriteLine("Type operation");
+            //char operation = Convert.ToChar(Console.ReadLine());
+            //switch (operation)
+            //{
+            //    case '+':
+            //        Console.WriteLine(num1 + " + " + num2 + " = " + (num1 + num2));
+            //        break;
+            //    case '-':
+            //        Console.WriteLine(num1 + " - " + num2 + " = " + (num1 -num2));
+            //        break;
+            //    case '*':
+            //        Console.WriteLine(num1 + " * " + num2 + " = " + (num1 *num2));
+            //        break;
+            //    case '/':
+            //        Console.WriteLine(num1 + " / " + num2 + " = " + (num1 /num2));
+            //        break;
+            //    default:
+            //        Console.WriteLine("Wrong operation");
+            //        break;
+            //}
+            #endregion
+
+            #region Form-Task8
+            // Adlar siyahisinda a herfi ile baslayan adlari consola yazdir(cap et)
+
+
+            //string[] schedule = { "Asif", "Vasif", "Agasif" };
+
+            //for (int i = 0; i < schedule.Length; i++)
+            //{
+            //    if(schedule[i][0] == 'A')
+            //    {
+            //        Console.WriteLine(schedule[i]);
+            //    }
+            //}
+            #endregion
+
+            #region Form-Task9
+            // Adlar siyahisinda a herfi ile baslayan adlari massive yigaraq cap et
+
+            string[] schedule = { "Asif", "Vasif", "Agasif" };
             int count = 0;
-            for (int i = 0; i < num; i++)
+
+
+            for (int i = 0; i < schedule.Length; i++)
             {
-                if (num < 50)
+                if (schedule[i][0] == 'A')
                 {
-                    if (i % 3 == 0)
-                    {
-                        count++;
-                    } 
-                }
-
-                if(num>50 && num < 100)
-                {
-                    if (i % 5 == 0)
-                    {
-                        count++;
-                    }
-                }
-
-                if (num > 100)
-                {
-                    if (i % 8 == 0)
-                    {
-                        count++;
-                    }
+                    count++;
                 }
             }
-            Console.WriteLine("cavab:"+count);
+                string[] newSchedule = new string[count];
+                int j = 0;
+                for (int i = 0; i < schedule.Length; i++)
+                {
+                    if (schedule[i][0] == 'A')
+                    {
+                        newSchedule[j] = schedule[i];
+                        j++;
+                    }
+
+                }
+
+                foreach(var item in newSchedule)
+                {
+                    Console.WriteLine(item);
+                }
+
             #endregion
+
         }
     }
-}
+    }
